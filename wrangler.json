@@ -1,15 +1,18 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "mosaique",
-  "main": "./src/worker/index.ts",
   "compatibility_date": "2025-04-01",
-  "compatibility_flags": ["nodejs_compat"],
+  "main": "src/server/index.ts",
+  "name": "rdltechworks",
+  "assets": {
+    "directory": "public"
+  },
+  "build": {
+    "command": "npx esbuild src/client/index.tsx --bundle --outdir=public/dist --splitting --sourcemap --format=esm"
+  },
   "observability": {
     "enabled": true
   },
-  "upload_source_maps": true,
-  "assets": {
-    "directory": "./dist/client",
-    "not_found_handling": "single-page-application"
-  }
+  "ai": {
+    "binding": "AI"
+  },
+  "upload_source_maps": true
 }

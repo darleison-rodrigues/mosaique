@@ -1,0 +1,6 @@
+automatic knowledge graph construction
+automatic lexicon construction
+Agent self agent based on knowlerdge constraints (enough data, enough lexicon )
+data encrytion (locally and cloud)
+model self host pulled during installation (SmolLM 3b fined tunned and quantized for the app)
+An automatic method for constructing machining process knowledge base from knowledge graph
