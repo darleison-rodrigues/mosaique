@@ -1,0 +1,30 @@
+[
+  {
+    "id": "ai-powered-physical-security",
+    "title": "AI-Powered Physical Security & Anomaly Detection",
+    "content": "Traditional surveillance systems often fall short, missing subtle threats and generating costly false alarms. Our AI-powered solution, running on the NVIDIA Jetson platform, transforms your existing IP cameras into a proactive security system. By processing video feeds at the edge, we provide real-time anomaly detection, from identifying intruders in restricted zones to recognizing tailgating at secure entry points. This on-premise approach ensures data privacy and delivers immediate, actionable insights without cloud dependency.",
+    "imageUrl": "https://images.unsplash.com/photo-1585224434299-4234b4f785cf?q=80&w=2070&auto=format&fit=crop",
+    "example": "A mid-sized manufacturing plant was struggling with unauthorized access to its R&D lab. After deploying our system, they were able to detect and receive instant alerts for after-hours access attempts. The system's ability to distinguish between employees and unauthorized individuals, combined with tailgating detection, reduced security breaches by 98% in the first three months."
+  },
+  {
+    "id": "iot-device-security",
+    "title": "IoT Device Security & Network Segmentation",
+    "content": "The proliferation of IoT devices in the workplace—from smart thermostats to industrial sensors—creates a new and often unsecured attack surface. Our solution addresses this by implementing robust network segmentation, isolating IoT devices on their own VLAN to prevent them from accessing your core business network. Using a Jetson-powered monitoring node, we analyze traffic for anomalous behavior, such as a compromised device attempting to scan the network or communicate with malicious external servers.",
+    "imageUrl": "https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=1964&auto=format&fit=crop",
+    "example": "A commercial real estate firm discovered that its smart building management system had been compromised, giving attackers a potential entry point to their corporate network. By implementing our IoT security solution, they were able to isolate the building management system, monitor its traffic for anomalies, and prevent a potentially devastating data breach, all while maintaining the functionality of their smart building."
+  },
+  {
+    "id": "aerospace-manufacturing-cybersecurity",
+    "title": "Aerospace & Manufacturing Cybersecurity",
+    "content": "With Quebec's significant investment in the aerospace sector, securing the supply chain has become a top priority. Our cybersecurity framework is designed to protect sensitive manufacturing data, intellectual property, and production systems from industrial espionage and cyberattacks. We leverage edge AI to monitor operational technology (OT) networks, ensuring the integrity of production processes and compliance with stringent industry regulations like ITAR and export controls.",
+    "imageUrl": "https://images.unsplash.com/photo-153056383- justly-4t3c-b59-4189-a-great-deal-of-time-and-effort-has-been-put-into-the-design-of-the-new-aircraft?q=80&w=2070&auto=format&fit=crop",
+    "example": "A key supplier in Quebec's aerospace cluster partnered with us to secure their manufacturing facility. Our edge-based system monitors their CNC machines and other OT equipment for unauthorized access or anomalous behavior. This not only protects their proprietary designs but also ensures they meet the cybersecurity requirements of their prime contractors, strengthening their position in the supply chain."
+  },
+  {
+    "id": "balcony-safety-ai-monitoring",
+    "title": "Balcony Safety AI Monitoring System",
+    "content": "Child safety is a paramount concern for many families. Our AI-powered balcony monitoring system uses high-resolution cameras and an NVIDIA Jetson device to create a virtual safety net. The system can distinguish between children and adults, define 'danger zones' near railings, and detect risky behaviors like climbing. If a child enters a danger zone, the system can trigger immediate alerts, including audible warnings and push notifications to a parent's phone.",
+    "imageUrl": "https://images.unsplash.com/photo-1611117775350-ac3950997985?q=80&w=2070&auto=format&fit=crop",
+    "example": "A family living in a high-rise apartment building installed our balcony safety system. One afternoon, their young child wandered onto the balcony and began to climb on a chair near the railing. The system immediately detected the dangerous behavior, sounded an audible warning, and sent an alert to the parents' phones. The parents were able to intervene immediately, preventing a potential tragedy."
+  }
+]
